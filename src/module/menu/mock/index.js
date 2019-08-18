@@ -1,6 +1,6 @@
 import Mock from '../../../mock'
 import {ApiUrls} from '../api'
-const domain = "http://localhost:8080/#"
+const domain = "https://xiaoping1988.github.io/index.html#"
 
 export default {
     bootstrap (mock) {
