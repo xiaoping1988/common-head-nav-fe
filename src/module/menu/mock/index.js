@@ -91,6 +91,26 @@ export default {
                             flag: 'HOT'
                         }
                     ]
+                },
+                {
+                    name: '个人应用',
+                    url: '',
+                    openType: 1,
+                    flag: 'HOT',
+                    children: [
+                        {
+                            name: '博客',
+                            url: 'https://blog.csdn.net/xiaoping_1988',
+                            openType: 2,
+                            flag: 'HOT'
+                        },
+                        {
+                            name: 'GitHub',
+                            url: 'https://github.com/xiaoping1988',
+                            openType: 2,
+                            flag: 'HOT'
+                        }
+                    ]
                 }
             ]
         })

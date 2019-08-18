@@ -7,16 +7,16 @@ export default {
         Mock.post(mock, '头部搜索框触发搜索', ApiUrls.headSearch, function (params) {
             return [
                 {
-                    title: '报表 可视化',
-                    url: 'https://xiaoping1988.github.io/#/report'
+                    title: '数据可视化',
+                    url: 'https://xiaoping1988.github.io/#/data-visual'
                 },
                 {
-                    title: '地图 可视化',
-                    url: 'https://xiaoping1988.github.io/#/map'
+                    title: '权限中心',
+                    url: 'https://xiaoping1988.github.io/#/auth'
                 },
                 {
                     title: '大屏 可视化',
-                    url: 'https://xiaoping1988.github.io/#/big-screen'
+                    url: 'https://xiaoping1988.github.io/#/message'
                 }
             ]
         })
