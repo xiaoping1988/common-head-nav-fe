@@ -49,12 +49,6 @@ export default {
                             url: 'https://www.baidu.com',
                             openType: 2,
                             flag: 'NEW'
-                        },
-                        {
-                            name: '统一元数据',
-                            url: 'https://www.baidu.com',
-                            openType: 2,
-                            flag: ''
                         }
                     ]
                 },
