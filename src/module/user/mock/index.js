@@ -17,7 +17,7 @@ export default {
             // }
             let user = {
                 userName: 'admin',
-                userNameCn: '三上',
+                userNameCn: '小平',
                 headPic: ''
             }
             return user

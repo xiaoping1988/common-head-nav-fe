@@ -5,14 +5,18 @@ import {ApiUrls} from '../api'
 export default {
     bootstrap (mock) {
         Mock.get(mock, '获取登录用户', ApiUrls.getLoginUser, function () {
-            let user = localStorage.getItem('dg_user')
-            if (user) {
-                user = JSON.parse(user)
-            } else {
-                user = {
-                    userName: 'admin',
-                    userNameCn: '三上悠亚'
-                }
+            // let user = localStorage.getItem('dg_user')
+            // if (user) {
+            //     user = JSON.parse(user)
+            // } else {
+            //     user = {
+            //         userName: 'admin',
+            //         userNameCn: '三上'
+            //     }
+            // }
+            let user = {
+                userName: 'admin',
+                userNameCn: '小平'
             }
             return user
             // return null
