@@ -24,7 +24,7 @@ export default {
         let container = document.createElement('div')
         container.id = this.containerId
         container.className = 'common-head-nav'
-        container.innerHTML = '<div id="commonHeadLogo"><a href="/">数据中台</a></div><ul id="commonHeadMenu"></ul><div id="commonHeadSearchContainer"><div id="commonHeadSearch"></div></div><div id="commonHeadMessage"></div><div id="commonHeadUser"></div>'
+        container.innerHTML = '<div id="commonHeadLogo"><a href="/">数据中台</a></div><ul id="commonHeadMenu"></ul><div id="commonHeadSearchContainer"><div id="commonHeadSearch"></div></div><div id="commonHeadMessage"></div><div id="commonHeadUser"></div><div id="aboutme"><a href="/#/about-me">关于我</a></div>'
         pnode.insertBefore(container, currentDom)
     },
     init: function () {

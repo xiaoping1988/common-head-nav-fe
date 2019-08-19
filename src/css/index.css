@@ -126,18 +126,30 @@
 #commonHeadUser {
     width: 100px;
     height: 100%;
-    margin-right: 15px;
     position: relative;
 }
 
 #commonHeadSearch,
 #commonHeadMessage,
-#commonHeadUser {
+#commonHeadUser,
+#aboutme {
     cursor: pointer;
 }
 
+#aboutme {
+    margin-right: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+#aboutme a {
+    color: #9da0a4;
+}
+
 #commonHeadMessage:hover,
-#commonHeadUser:hover {
+#commonHeadUser:hover,
+#aboutme:hover {
     background-color: #191d21;
 }
 
