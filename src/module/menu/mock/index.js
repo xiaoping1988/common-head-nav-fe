@@ -65,6 +65,12 @@ export default {
                             flag: 'HOT'
                         },
                         {
+                            name: '指标体系',
+                            url: domain + '/data-map',
+                            openType: 2,
+                            flag: 'HOT'
+                        },
+                        {
                             name: '数据API',
                             url: 'https://www.baidu.com',
                             openType: 2,
