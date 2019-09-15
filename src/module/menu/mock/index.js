@@ -66,13 +66,13 @@ export default {
                         },
                         {
                             name: '指标体系',
-                            url: domain + '/data-map',
+                            url: domain + '/index-system',
                             openType: 2,
                             flag: 'HOT'
                         },
                         {
                             name: '数据API',
-                            url: 'https://www.baidu.com',
+                            url: domain + '/data-api',
                             openType: 2,
                             flag: 'NEW'
                         }
