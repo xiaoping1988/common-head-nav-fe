@@ -34,13 +34,13 @@ export default {
                 },
                 {
                     name: '数据建设',
-                    url: 'https://www.baidu.com',
+                    url: '',
                     openType: 1,
                     flag: 'HOT',
                     children: [
                         {
                             name: '数据体系',
-                            url: 'https://www.baidu.com',
+                            url: domain + '/data-system',
                             openType: 2,
                             flag: 'HOT'
                         },
